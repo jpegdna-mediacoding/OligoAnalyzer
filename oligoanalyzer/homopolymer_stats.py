@@ -14,7 +14,7 @@ def compute_data(data):
             i = 0
             while i < len(line)-3:
                 if line[i] == line[i+1] == line[i+2] == line[i+3]:
-                    tmp_size = 4
+                    tmp_size = 0
                     tmp_hom += 1
                     j = i
                     while  i < len(line) and line[j] == line[i]:
