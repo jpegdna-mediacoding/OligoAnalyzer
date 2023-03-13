@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="UTF-8") as fh:
 setup(name="JPEG DNA Oligo Analyzer",
       version="0.0a1",
       author="Xavier Pic, Melpomeni Dimopoulou, Eva Gil San Antonio, Jeremy Mateos, Marc Antonini",
-      author_email="xpic@i3s.unice.fr",
+      author_email="xpic@i3s.unice.fr, gilsanan@i3s.unice.Fr, dimopoulou@i3s.unice.fr, mateos@i3s.unice.fr, am@i3s.unice.fr",
       description="Packages gathering analysis and visualization tools \
           for DNA data storage",
       long_description=long_description,
