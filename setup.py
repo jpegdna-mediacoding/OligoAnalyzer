@@ -17,6 +17,6 @@ setup(name="JPEG DNA Oligo Analyzer",
       install_requires=["argparse", "matplotlib"],
       entry_points="""
       [console_scripts]
-      jdna_gc = src.gc_stats:main
-      jdna_homopolymers = src.homopolymer_stats:main
+      jdna_gc = oligoanalyzer.gc_stats:main
+      jdna_homopolymers = oligoanalyzer.homopolymer_stats:main
       """)
