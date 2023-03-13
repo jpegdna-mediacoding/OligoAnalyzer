@@ -17,6 +17,7 @@ I3S laboratory, Euclide B, 2000 Rte des Lucioles, 06900 Sophia Antipolis, FRANCE
 xpic@i3s.unice.fr,
 dimopoulou@i3s.unice.fr,
 gilsanan@i3s.unice.fr,
+mateos@i3s.unice.fr,
 am@i3s.unice.fr
 
 # Installation
