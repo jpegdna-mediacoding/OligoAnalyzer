@@ -44,7 +44,7 @@ fitness for a particular purpose.  This software is provided "AS IS", and you,
 its user, assume the entire risk as to its quality and accuracy.
 
 This software is copyright (C) 2023, Melpomeni Dimopoulou, Xavier Pic, 
-Eva Gil San Antonio, Iulia Mitrica, Marc Antonini.
+Eva Gil San Antonio, Jeremy Mateos, Marc Antonini.
 All Rights Reserved except as specified below.
 
 Permission is hereby granted to use, copy, modify, and distribute this
