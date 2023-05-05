@@ -1,7 +1,7 @@
 import argparse
 from tools.fasta import get_oligos
 
-PATTERN_SIZE_RANGE = (2,5)
+PATTERN_SIZE_RANGE = (3,5)
 
 def compute_data(data):
     """Compute simple pattern statistics on the oligo pool"""
@@ -30,11 +30,13 @@ def detect_patterns(oligo):
                 else:
                     pattern_info[pattern] = new_info
                 pattern_counts += 3
+                mask[j:j+3*length] = [1]*3*length
                 j += 3*length
                 while (j+length < len(oligo) and oligo[j:j+length] == pattern and mask[j:j+length]):
                     new_info = {'position': {(j, j+length)}, 'population': 1}
                     update_pattern_info(pattern_info[pattern], new_info)
                     pattern_counts += 1
+                    mask[j:j+length] = [1]*length
                     j += length
             else:
                 j+=1
